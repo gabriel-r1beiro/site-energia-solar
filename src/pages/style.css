@@ -1,0 +1,68 @@
+.since{
+    margin: 10px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.since-img{
+    width: 300px;
+    filter: drop-shadow(-20px 5px 10px rgb(170, 169, 164));    
+}
+.h1-since{
+    font-size: 40px;
+    width: 560px;
+}
+
+.span-since{
+    color: rgb(129, 190, 36);
+}
+
+.explore p{
+    width: 400px;
+    margin-bottom: 20px;
+
+}
+.explore-btt{
+    background-color: rgb(54, 197, 54);
+    color: white;
+    padding: 9px 40px;
+    border-radius: 15px;
+    margin-right: 20px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.explore-button {
+    display: flex;
+    align-items: center; 
+}
+.explore-button .explore-view{
+    text-decoration: underline;
+    color: black;
+}
+
+
+.itens{
+    margin: 0;
+    background-color: rgb(14 75 96);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+ .acos-display{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+ }
+
+.ecos a{
+    
+    font-size: 34px;
+    color: white;
+    background-color: green;
+    border-radius: 20px;
+    width: 40px;
+}

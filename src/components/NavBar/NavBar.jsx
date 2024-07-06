@@ -5,15 +5,11 @@ import { MdElectricBolt,  MdChat } from "react-icons/md";
 import { BsTelephoneFill } from "react-icons/bs";
 import { IoLogoWhatsapp, IoLogoYoutube  } from "react-icons/io";
 import { FaFacebook,FaTwitter  } from "react-icons/fa";
-import { useState } from "react";
+
 
 
 function NavBar() {
-    const [search, setSearch] = useState(false);
-    const handleSearch = (e) => {
-        e.preventDefault();
-       setSearch(!search)
-    }
+
   return (
     <header className="header-conteiner">
         <div className="conteiner-contact">
@@ -44,20 +40,8 @@ function NavBar() {
         <nav className="navbar">
             <div className="navbar-conteiner">
                 <div className="search">
-                    <a href="/" onClick={handleSearch}>
-                        {!search && 
-                            <a href="" onClick={handleSearch} className="animacao">
-                                <IoSearchOutline />
-                            </a>
-                        }
-                        {search &&
-                            <>
-                                <input type="text" />
-                                <a href="" onClick={handleSearch}>
-                                    <IoSearchOutline />
-                                </a>
-                            </>
-                        }
+                    <a href="/" >
+                        <IoSearchOutline />
                     </a>
                 </div>
                 <ul>

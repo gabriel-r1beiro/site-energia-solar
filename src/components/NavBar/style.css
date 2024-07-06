@@ -1,7 +1,7 @@
 a, li {
     list-style: none;
     text-decoration: none;
-}
+} 
 
 .conteiner-contact{
     height: 50px;
@@ -101,3 +101,9 @@ a, li {
     cursor: pointer;
 }
 
+.input-search{
+    width: 250px;
+    height: 24px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
